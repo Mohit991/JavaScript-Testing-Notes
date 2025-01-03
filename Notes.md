@@ -60,7 +60,7 @@ These units can be classes or functions or modules.
 ![image](https://github.com/user-attachments/assets/5ad35e84-d9c3-4bfd-9e62-60d178b758f4)  
 
 ### Integration Testing
-It focuses on how different units or components of the application work together as a whole. They help identify the issues that may arise when we combine different units such as data flow problems, communication between modules and compatibility issues. 
+It focuses on how different units or components of the application work together as a whole. They help identify the issues that may arise when we combine different units such as data flow problems, communication between modules, and compatibility issues. 
 
 ### End-to-End or E2E Testing
 It focuses on testing the entire application as a whole.  
@@ -109,6 +109,107 @@ package.json will look like this:
 
 ### Running the Tests
 To run the tests, we will run the command `npm test` or `npm t`
+
+## Writing Tests
+### Code we want to Test
+This is **intro.js**:  
+
+![image](https://github.com/user-attachments/assets/96b93939-c5bb-4498-a4cc-650860748ff4)
+
+### Creating a new Folder "tests" and creating intro.test.js file inside that folder
+![image](https://github.com/user-attachments/assets/95a6a022-ff40-4e54-a74d-2a0c15a33898)  
+
+This is the pattern `<file_name>.test.js` vitest or jest look for.  
+They will pick the files with test in their names.  
+
+### intro.test.js
+![image](https://github.com/user-attachments/assets/cb174f03-8e3e-4cf2-8e38-e78a4037d1d0)  
+
+### Running Tests
+Use the command `npm t` or  `npm test` to run the test cases defined in  `intro.test.js`.  
+![image](https://github.com/user-attachments/assets/9e7a3346-c024-4da1-9196-f4e2424d15a3)  
+
+### Writing More Tests
+![image](https://github.com/user-attachments/assets/d3e29899-ac07-4f00-b26e-1c5b7055cb9e)  
+
+![image](https://github.com/user-attachments/assets/f7c3d108-d331-4544-99b1-8f934adbf621)  
+
+## Excercise
+### Code
+![image](https://github.com/user-attachments/assets/79afc905-cd13-4ff8-8acc-ca01ec68f84a)  
+
+### Test Cases
+![image](https://github.com/user-attachments/assets/0546a78d-6c30-41ba-94f9-8fe0aa30f057)
+
+### intro.test.js
+![image](https://github.com/user-attachments/assets/0c7526e9-8477-4a3e-8587-e831ce8dfb62)
+
+### Running Test Cases
+![image](https://github.com/user-attachments/assets/6dd9500d-8b43-4f1e-a27d-f3385c9c9e53)  
+
+## Test Reason Development(TDD)
+Write the tests first then write the code.  
+![image](https://github.com/user-attachments/assets/9d40f4bd-9f6e-4fde-a9fa-dd24ebcaf543)  
+
+![image](https://github.com/user-attachments/assets/8221b319-c2fd-4a32-a5b1-f3c5e641f3b4)  
+
+### We want to write a function to calculate average of all numbers of an array
+Writing test cases:
+![image](https://github.com/user-attachments/assets/010dcd66-aed1-4fe8-abb2-5aa53f05decc)  
+
+Writing the function/code:
+![image](https://github.com/user-attachments/assets/fff79ba2-f958-4820-b112-7bb8c55ea84d)  
+
+### Advantages of TDD
+![image](https://github.com/user-attachments/assets/24a38ad6-cef2-4c0d-a686-c0519b869f5f)
+
+![image](https://github.com/user-attachments/assets/4a12e5a5-025a-49a0-a0e5-92c2b8d91df0)  
+
+## Testing Factorial Function
+### Code
+![image](https://github.com/user-attachments/assets/ad2551ad-254e-4b57-93ab-87f1d6d83a5d)
+
+### Tests
+![image](https://github.com/user-attachments/assets/e1934c2c-6907-4ced-859e-d85db68f6ed1)  
+
+### Complete intro.js
+![image](https://github.com/user-attachments/assets/b385e1c7-33f4-4c1c-bcef-3e527541495e)  
+
+### Complete intro.test.js
+![image](https://github.com/user-attachments/assets/c2d2e890-1116-4f39-82e8-c96330f67add)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
 
 
 
