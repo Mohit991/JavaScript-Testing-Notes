@@ -51,6 +51,70 @@ Should you write tests, if so, how much?
 ![image](https://github.com/user-attachments/assets/9664c5a1-fdc2-4a44-8d09-7c8c9bf88009)
 
 
+## Types of Tests
+![image](https://github.com/user-attachments/assets/b2869248-31bd-4fbd-85d4-dff507a0c490)  
+
+### Unit Testing
+Testing individual units or components of an application in isolation.  
+These units can be classes or functions or modules.  
+![image](https://github.com/user-attachments/assets/5ad35e84-d9c3-4bfd-9e62-60d178b758f4)  
+
+### Integration Testing
+It focuses on how different units or components of the application work together as a whole. They help identify the issues that may arise when we combine different units such as data flow problems, communication between modules and compatibility issues. 
+
+### End-to-End or E2E Testing
+It focuses on testing the entire application as a whole.  
+![image](https://github.com/user-attachments/assets/f68aafcd-ac70-4160-a8ef-23e757bb1b95)  
+
+They simulate real user interactions with the entire system from the user interface to the backend services. They ensure that our entire application works seamlessly from the user's perspective.  
+
+## What tests to write?
+Unit Tests > Integration Tests > E2E Tests
+![image](https://github.com/user-attachments/assets/7db85d29-aa15-406f-93be-6a22f0cc1f17)  
+
+This is just an idea. 
+When designing the testing strategy for your application, keep in mind the complexity of your application as well as the time and resources you have in hand.  
+
+![image](https://github.com/user-attachments/assets/8e1230af-e3a2-443a-875c-eec605993813)  
+
+## Testing Frameworks
+![image](https://github.com/user-attachments/assets/591f27f7-d3f1-4abd-8ddb-cdb945c38ec2)  
+
+![image](https://github.com/user-attachments/assets/b8fa4de2-c396-4153-ac11-a13fe8ee99f1)  
+
+### Components of a Testing Framework
+### Test Runner
+To execute the tests.
+
+### Assertion Libraries
+To check if the code behaves as expected.
+
+### Mocking Tools
+To replace certain modules with fakes, simulating different scenarios.  
+
+### Coverage Tools
+To measure how much of the code is tested.  
+
+![image](https://github.com/user-attachments/assets/8e27b016-3c05-40b2-813f-fcf9d96d9716)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
