@@ -97,9 +97,18 @@ To measure how much of the code is tested.
 
 ![image](https://github.com/user-attachments/assets/8e27b016-3c05-40b2-813f-fcf9d96d9716)  
 
+## Setting up Vitest
+### Install the Package
+`npm install -D vitest`
+We will install it as a dev dependency. 
 
+### Updating package.json
+In the package.json file, we will add `"test": "vitest"` in the script.
+package.json will look like this:  
+![image](https://github.com/user-attachments/assets/f62e783e-01e9-496c-839b-feef7416472c)  
 
-
+### Running the Tests
+To run the tests, we will run the command `npm test` or `npm t`
 
 
 
